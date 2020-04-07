@@ -1,0 +1,86 @@
+/* Regole genarali */
+
+body {
+  background-image: url(../img/sfondo.jpg);
+  margin: 0px;
+}
+
+.main-wrapper {
+  margin: 0px auto;
+  width: 50%;
+}
+ /* Fine Regole genarali */
+
+ /* Header */
+
+ .header {
+   color: white;
+ }
+ .header hr{
+   margin-top: 0px;
+ }
+
+ .header .top-header .logo{
+   height:100px;
+   vertical-align: middle;
+ }
+
+ .header .top-header .logo-text {
+   font-size: 25px;
+ }
+
+.header .bottom-header .counter {
+  font-size: 25px;
+  line-height: 50px;
+  margin: 10px 0;
+}
+
+.header .bottom-header .counter .number{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: orange;
+  padding: 10px;
+  line-height: 50px;
+}
+
+/* Fine Header */
+
+
+/* Regole Content */
+.content .email{
+  background: lightgray;
+  padding: 3px;
+  border: 1px solid black;
+}
+
+.content .white {
+  background: white;
+  /* padding: 3px;
+  border: 1px solid black; */
+}
+
+.subject {
+  font-weight: bolder;
+}
+
+.content .email .mail-text{
+  color: gray;
+}
+
+/* Fine Regole Content */
+
+/* Regole Footer */
+.footer {
+  text-align:center;
+  color: white;
+}
+.footer p{
+  font-size: italic;
+}
+.footer p .company{
+  font-size:21px;
+  font-weight: bolder;
+  font-style: normal;
+}
+/* Fine Regole Footer */
